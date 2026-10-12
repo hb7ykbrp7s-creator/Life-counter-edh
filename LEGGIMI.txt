@@ -1,0 +1,27 @@
+COMMANDER - contatore vita
+==========================
+
+Contenuto della cartella (carica TUTTI i file, senza cambiare i nomi):
+  index.html, manifest.webmanifest, sw.js,
+  icon-192.png, icon-512.png, icon-maskable-512.png, apple-touch-icon.png
+
+PUBBLICARLA GRATIS SU GITHUB PAGES (consigliato da computer)
+1. Crea un account gratuito su github.com.
+2. Nuovo repository: nome a piacere (es. commander), pubblico.
+3. "Add file" > "Upload files": trascina tutti i file della cartella > "Commit changes".
+4. Settings > Pages > Source: "Deploy from a branch" > Branch: main, cartella /(root) > Save.
+5. Dopo circa un minuto l'indirizzo e' https://TUONOME.github.io/commander/
+
+ALTERNATIVA PIU' RAPIDA: Netlify Drop (app.netlify.com/drop)
+Trascina la cartella e ottieni subito un indirizzo.
+
+INSTALLARLA SULL'IPHONE
+1. Apri l'indirizzo in Safari.
+2. Tocca Condividi > "Aggiungi alla schermata Home".
+3. Si apre a schermo intero come una vera app e funziona anche senza rete
+   (dopo la prima apertura online).
+
+NOTE
+- Le partite restano salvate nel browser di ogni dispositivo, non si sincronizzano.
+- Per aggiornare l'app: sostituisci i file nel repository e, in sw.js,
+  cambia il numero in CACHE='commander-v1' (es. commander-v2).
